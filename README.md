@@ -10,5 +10,7 @@
 ### 명령어
 - **git init**: 지역 저장소 생성
 - **git status**: 파일 상태 확인하기
-- **git add filename**: 작업 내용을 지역 저장소에 저장하기 위해 **스테이징 영역(staging area)** 에 추가한다.
-- **git commit -m "filename"**:
+- **git add filename**: 작업 내용을 지역 저장소에 저장하기 위해 **스테이징 영역(staging area)** 에 추가
+- **git commit -m "filename"**:-m 플래그는 뒤따르는 텍스트는 메시지로 읽는다   
+ >>>>커밋 메세지가 현재형이므로 시간에 대한 유연성을 가지므로 현재형으로 작성한다 commit은 작업 내역을 지역 저장소에 저장
+- **git push**:로컬 저장소의 변경 내역을 원격 저장소에 반영한다.
