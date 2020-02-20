@@ -17,6 +17,14 @@
 - **git remote add origin githhb repo url**   
 지역 저장소와 원격 저장소의 첫번째 실제 연결 만들기   
 
+- **git remote -v**   
+확인을 위한 명령어   
+이 명령어는 로컬 저장소가 알고있는 원격 origin에 대한 모든 항목을 보여준다.   
+지금까지 함께 하였다면,단 하나이어야 한다. 두 개가 리스트된 것은 정보를 push하고 fetch할 수 있는 것을 뜻한다
+
+- **git remote set-url origin 변경할 위치(https://~)**   
+원격 저장소를 변경할때 사용하는 명령어 리포지터리를 바꿀때 사용    
+
 - **git add filename**   
 작업 내용을 지역 저장소에 저장하기 위해 **스테이징 영역(staging area)** 에 추가   
 
