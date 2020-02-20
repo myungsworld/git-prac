@@ -8,4 +8,5 @@
 
 ### 명령어
 - git init: 지역 저장소 생성
-- git status:
+- git status: 파일 상태 확인하기
+- git add: 작업 내용을 지역 저장소에 저장하기 위해 **스테이징 영역(staging area)** 에 추가한다.
