@@ -14,7 +14,7 @@
 - **git status**   
 파일 상태 확인하기   
 
-- **git remote add origin githhb repo url**   
+- **git remote add origin 원격저장소위치(https://~)**   
 지역 저장소와 원격 저장소의 첫번째 실제 연결 만들기   
 
 - **git remote -v**   
@@ -35,4 +35,4 @@ commit은 작업 내역을 지역 저장소에 저장, -m 플래그는 뒤따르
 - **git push**   
 로컬 저장소의 변경 내역을 원격 저장소에 반영한다.   
 
-- **
+
