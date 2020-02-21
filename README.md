@@ -35,5 +35,8 @@ commit은 작업 내역을 지역 저장소에 저장, -m 플래그는 뒤따르
 - **git push**   
 로컬 저장소의 변경 내역을 원격 저장소에 반영한다.   
 
- 아직 사용해보지 않은것들 fetch,clone,fork,merge
- 일단 요까이
+- **git rm filename**   
+원격저장소에 있는 파일을 삭제하기 위해서 사용되는 건데 cmd창에서도 git bash here에서도 실행되지 않는다 원인을 모르겠다   
+git rm -rf filename 안되면 이렇게 해보라는데 이것도 안되고   
+git rm -r --cached filename filename 여러개를 동시에 지우는것도 안된다   
+cmd창에서 파일을 삭제하고 싶다 물론 깃허브에서 delete this file을 누르면 삭제되긴 하는데 간지가 나지않는다 
