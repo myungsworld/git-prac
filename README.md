@@ -40,6 +40,7 @@ master branch에 push한다.
 
 - **git push origin master**   
 - > ! [rejected]        master -> master (fetch first) 이미 변경된 파일이 원격저장소에 있을경우 발생   
+
 -**git pull origin master**   
 원격저장소의 내용을 가져와 로컬저장소의 내용과 자동으로 병합작업을 수행한다.
 
