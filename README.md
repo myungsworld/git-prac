@@ -34,14 +34,14 @@ commit은 작업 내역을 지역 저장소에 저장, -m 플래그는 뒤따르
 
 - **git push**   
 로컬 저장소의 변경 내역을 원격 저장소에 반영한다.   
-- > //fatal: The current branch master has no upstream branch. 브랜치가 원격저장소에 없을경우 발생   
-- > 두가지 해결방안 **git push -u origin master** 혹은 **git push -f origin master**  
+ > //fatal: The current branch master has no upstream branch. 브랜치가 원격저장소에 없을경우 발생   
+ > 두가지 해결방안 **git push -u origin master** 혹은 **git push -f origin master**  
 master branch에 push한다.  
 
 - **git push origin master**   
-- > ! [rejected]        master -> master (fetch first) 이미 변경된 파일이 원격저장소에 있을경우 발생   
+> ! [rejected]        master -> master (fetch first) 이미 변경된 파일이 원격저장소에 있을경우 발생   
 
--**git pull origin master**   
+- **git pull origin master**   
 원격저장소의 내용을 가져와 로컬저장소의 내용과 자동으로 병합작업을 수행한다.
 
 
