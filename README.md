@@ -37,8 +37,8 @@ commit은 작업 내역을 지역 저장소에 저장, -m 플래그는 뒤따르
 
 - **git push origin master**   
 master branch에 push한다.   
-//fatal: The current branch master has no upstream branch. 브랜치가 원격저장소에 없을경우 발생   
-- >두가지 해결방안 **git push -u origin master** 혹은 **git push -f origin master**   
+- > //fatal: The current branch master has no upstream branch. 브랜치가 원격저장소에 없을경우 발생   
+- > 두가지 해결방안 **git push -u origin master** 혹은 **git push -f origin master**   
 
 - **git rm filename**   
 원격저장소에 있는 파일을 삭제하기 위해서 사용되는 건데 cmd창에서도 git bash here에서도 실행되지 않는다 원인을 모르겠다   
