@@ -40,6 +40,11 @@ master branch에 push한다.
 - > //fatal: The current branch master has no upstream branch. 브랜치가 원격저장소에 없을경우 발생   
 - > 두가지 해결방안 **git push -u origin master** 혹은 **git push -f origin master**   
 
+> ! [rejected]        master -> master (fetch first) 이미 변경된 파일이 원격저장소에 있을경우 발생   
+-**git pull origin master**   
+원격저장소의 내용을 가져와 로컬저장소의 내용과 자동으로 병합작업을 수행한다.
+
+
 - **git rm filename**   
 원격저장소에 있는 파일을 삭제하기 위해서 사용되는 건데 cmd창에서도 git bash here에서도 실행되지 않는다 원인을 모르겠다   
 git rm -rf filename 안되면 이렇게 해보라는데 이것도 안되고   
