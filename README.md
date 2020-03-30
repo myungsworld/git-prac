@@ -62,8 +62,8 @@ cmd창에서 파일을 삭제하고 싶다 물론 깃허브에서 delete this fi
 새로운 브랜치를 생성(브랜치 추적)   
    
 하위 브랜치와 상위브랜치 병합   
- - **git checkout 원격저장소branch이름**   
- - **git merge 로컬저장소**   
- - **git push origin 원격저장소이름**   
+ -1 **git checkout 원격저장소branch이름**   
+ -2 **git merge 로컬저장소**   
+ -3 **git push origin 원격저장소이름**   
 
 
