@@ -56,10 +56,10 @@ cmd창에서 파일을 삭제하고 싶다 물론 깃허브에서 delete this fi
 원격 브랜치와 로컬 브랜치 리스트 모두 보여줌
 
 - **git checkout -t 원격저장소branch이름**
--t 옵션과 원격저장소의 branch이름을 입력하면 로컬의 동일한 이름의 branch를 생성하면서 해당 branch로 checkout
+-t 옵션과 원격저장소의 branch이름을 입력하면 로컬의 동일한 이름의 branch를 생성하면서 해당 branch로 checkout   
 
 - **git checkout -b 새로만들 브랜치 분기될 브랜치**
-새로운 브랜치를 생성(브랜치 추적)
+새로운 브랜치를 생성(브랜치 추적)   
 
 - **git checkout 원격저장소branch이름** 
 - **git merge 로컬저장소**
