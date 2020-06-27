@@ -32,6 +32,9 @@
 commit은 작업 내역을 지역 저장소에 저장, -m 플래그는 뒤따르는 텍스트는 메시지로 읽는다   
 커밋 메세지가 현재형이므로 시간에 대한 유연성을 가지므로 현재형으로 작성한다   
 
+- **git commit --amend -m "변경할 메시지"**  
+직전 커밋의 메시지 만을 수정  
+
 - **git push**   
 로컬 저장소의 변경 내역을 원격 저장소에 반영한다.   
  > //fatal: The current branch master has no upstream branch. 브랜치가 원격저장소에 없을경우 발생   
