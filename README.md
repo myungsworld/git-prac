@@ -61,6 +61,9 @@ cmd창에서 파일을 삭제하고 싶다 물론 깃허브에서 delete this fi
 - **git push origin --delete <원격저장소 branch이름>**  
 로컬에서 원격 브랜치 삭제  
 
+- **rm -rf .git**  
+nodejs 리포에 study라는 폴더가 있었는데 내용물을 바꾸고 커밋을 해도 인식이 안되서 고생하다가 history가 상관이 없다면 저렇게 하라고 해서 함  
+분명 인식이 안되는 이유가 있을텐데 왜 그런지 구글링을 해봐도 답을 찾지 못했다.  
 
 - **git checkout -t 원격저장소branch이름**   
 -t 옵션과 원격저장소의 branch이름을 입력하면 로컬의 동일한 이름의 branch를 생성하면서 해당 branch로 checkout   
