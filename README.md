@@ -83,13 +83,13 @@ nodejs 리포에 study라는 폴더가 있었는데 내용물을 바꾸고 커�
 - **git clone [복사된 URL]**  
 - **git remote add upstream [git URL]**  
  
-협업할 레포를 내 레포로 추가, 로컬저장소에 복제, 새로운 원격저장소 remote 추가 (upsteam 권장), 작업후 push 하면   
+ 협업할 레포를 내 레포로 추가, 로컬저장소에 복제, 새로운 원격저장소 remote 추가 (upsteam 권장), 작업후 push 하면   
 upstream 쪽 협력자가 pull request 를 할지 결정  
 - **git fecth upstream**
 - **git merge upstream/master**  
 upstream 변경 내역 확인, upstream 저장소의 마스터 브랜치를 우리의 프로젝트에 병합하겠다는 의미   
 
-#### clone과 fork의 차이  
+- **clone과 fork의 차이**   
 타인의 저장소를 가져오는 방법 중에 가장 처음 접하는 방법은 보통 클론이다.  
 클론을 하는 경우, 타인의 저장소에 대한 변경 권한이 없다.  
 커밋은 가능하지만 푸시를 할 경우 Permission denied라는 에러 메세지가 나오며 거절되는 것을 볼 수 있다.  
