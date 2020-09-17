@@ -108,5 +108,14 @@ upstream 변경 내역 확인, upstream 저장소의 마스터 브랜치를 우�
 내 깃 저장소에 다른 깃 저장소를 디렉토리로 분리해 넣는 것    
 각 저장소의 커밋을 독립적으로 관리한다.  
 
+- **git reset --soft HEAD^**  
+commit을 취소하고 해당 파일들은 staged 상태로 워킹 디렉토리에 보존  
+
+- **git reset --mixed HEAD^**  
+commit을 취소하고 해당 파일들은 unstaged 상태로 워킹 디렉토리에 보존  
+
+- **git reset --hard HEAD^**  
+commit을 취소하고 해당 파일들은 unstaged 상태로 워킹 디렉토리에서 삭제  
+이거 하지마셈 커밋한거 다 사라짐 ㅋㅋ루삥뽕  
 
 깃 이그노어 깃 로그에 깃 리베이스 정리
