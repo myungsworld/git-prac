@@ -118,4 +118,14 @@ commit을 취소하고 해당 파일들은 unstaged 상태로 워킹 디렉토�
 commit을 취소하고 해당 파일들은 unstaged 상태로 워킹 디렉토리에서 삭제  
 이거 하지마셈 커밋한거 다 사라짐 ㅋㅋ루삥뽕  
 
+- **.ignore**  
+root directory에 .env안에 있는 파일이나 node_modules 같은 대용량 파일 무시해주는 용도  
+중요한 내용 프라이빗 키 같은 경우를 깃허브 올리는것 방지  
+ignore 파일이 먹히지 않을 경우  
+git rm -r --cached .  
+git add .  
+git commit -m "fixed untracked files"  
+
+
+
 깃 이그노어 깃 로그에 깃 리베이스 정리
