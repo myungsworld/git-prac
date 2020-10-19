@@ -106,7 +106,13 @@ upstream 변경 내역 확인, upstream 저장소의 마스터 브랜치를 우�
 
 - **git submodule add [추가할 URL]**  
 내 깃 저장소에 다른 깃 저장소를 디렉토리로 분리해 넣는 것    
-각 저장소의 커밋을 독립적으로 관리한다.  
+각 저장소의 커밋을 독립적으로 관리한다.
+
+- **git clone --recursive [project url] **   
+submodule 이 포함된 저장소를 사용할때 --recursive를 사용한다.
+
+- **git submodule update --init --recursive **  
+submodule 내용물을 명시적으로 받을때 사용  
 
 - **git reset --soft HEAD^**  
 commit을 취소하고 해당 파일들은 staged 상태로 워킹 디렉토리에 보존  
@@ -126,6 +132,7 @@ git rm -r --cached .
 git add .  
 git commit -m "fixed untracked files"  
 
+ 
 
 
-깃 이그노어 깃 로그에 깃 리베이스 정리
+깃 로그에 깃 리베이스 정리
