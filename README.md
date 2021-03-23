@@ -83,9 +83,9 @@ nodejs 리포에 study라는 폴더가 있었는데 내용물을 바꾸고 커�
 ---
 - **git fork [git URL]**  
 - **git clone [복사된 URL]**  
-- **git remote add upstream [git URL]**
-협업할 레포를 내 레포로 추가, 로컬저장소에 복제, 새로운 원격저장소 remote 추가 (upsteam 권장), 작업후 push 하면   
-upstream 쪽 협력자가 pull request 를 할지 결정  
+- **git remote add upstream [git URL]**  
+협업할 레포를 내 레포로 추가, 로컬저장소에 복제, 새로운 원격저장소 remote 추가 (upsteam 권장)   
+작업후 push 하면 upstream 쪽 협력자가 pull request 를 할지 결정  
 
 - **git fecth upstream**
 - **git merge upstream/master**  
