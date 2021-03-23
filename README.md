@@ -72,7 +72,9 @@ nodejs 리포에 study라는 폴더가 있었는데 내용물을 바꾸고 커�
 -t 옵션과 원격저장소의 branch이름을 입력하면 로컬의 동일한 이름의 branch를 생성하면서 해당 branch로 checkout   
 
 - **git checkout -b 새로만들 브랜치 분기될 브랜치**   
-새로운 브랜치를 생성(브랜치 추적)   
+새로운 브랜치를 생성(브랜치 추적) 분기될 브랜치가 로컬 브랜치이면 자동 tracking이 되지않는다.  
+따라서 upstream branch 를 추적하려면 분기될 브랜치가 원격브랜치여야 하는듯  
+
    
 하위 브랜치와 상위브랜치 병합   
 - **1git checkout 원격저장소branch이름**   
