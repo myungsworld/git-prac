@@ -130,7 +130,5 @@ git rm -r --cached .
 git add .  
 git commit -m "fixed untracked files"  
 
- 
-
-
-깃 로그에 깃 리베이스 정리
+- **git merge --abort**
+merge 취소하는거 싀발 현타 존나오네 씌발 즨쫘 씌봘
